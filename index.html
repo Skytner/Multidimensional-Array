@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-dimensional array</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Двумерные массивы</h1>
+    </header>
+    <div class="about">
+        <h2>Зачем нужны двумерные массивы?</h2>
+        <p>Ну если честно я не ебу зачем мне двумерный массив в таком микросайте, <br> но скорее всего он нужен для сложных веб-сайтов, которые занимаются хранением больших данных.</p>
+        <p>Ввод:</p>
+        <img src="img00.png" alt="">
+        <p id="console"></p>
+        <button onclick='showConsole(this)'>Нажать для вывода</button>
+    </div>
+    <div class="practice">
+        <h2>Думаю, самое время для практики</h2> 
+    </div>
+    <div id="itemList" class="myItems">
+        <p>Мои предметы:</p>
+        <p>Предметы торговца:</p>
+        <button onclick="openStore(this)" style="font-size: 12px">Открыть магазин</button>
+        <button id="btnYasuo" onclick="showYasuoItems()" style="display: none;">Предметы для Ясуо</button>
+        <button id="btnJhin" onclick="showJhinItems()" style="display: none;">Предметы для Джина</button>
+        <button id="btnEkko" onclick="showEkkoItems()" style="display: none;">Предметы для Экко</button> 
+        <p id="items"></p>
+    </div>
+    
+<script src="app.js"></script>
+</body>
+</html>
